@@ -5,7 +5,9 @@
     "validate": ["vault", "policy", "fmt", "-check"],
     "test": ["vault", "policy", "read"]
   },
-  "best_practices_files": ["./best_practices_guides/HASHICORP_VAULT_POLICY_AS_CODE_BEST_PRACTICES.md"],
+  "best_practices_files": [
+    "./best_practices_guides/HASHICORP_VAULT_POLICY_AS_CODE_BEST_PRACTICES.md"
+  ],
   "chunk_size": 50,
   "agents": 20,
   "session": "claude_agents",
@@ -28,4 +30,4 @@
   "fast_start": false,
   "full_backup": false,
   "max_agents": 50
-} 
+}

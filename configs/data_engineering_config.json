@@ -6,7 +6,9 @@
     "lint": ["ruff", "check", "."],
     "data_quality": ["great_expectations", "checkpoint", "run"]
   },
-  "best_practices_files": ["./best_practices_guides/DATA_ENGINEERING_AND_ANALYTICS_BEST_PRACTICES.md"],
+  "best_practices_files": [
+    "./best_practices_guides/DATA_ENGINEERING_AND_ANALYTICS_BEST_PRACTICES.md"
+  ],
   "chunk_size": 50,
   "agents": 20,
   "session": "claude_agents",
@@ -29,4 +31,4 @@
   "fast_start": false,
   "full_backup": false,
   "max_agents": 50
-} 
+}

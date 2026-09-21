@@ -5,7 +5,9 @@
     "python_check": ["python", "-m", "py_compile"],
     "scala_check": ["scalac", "-Ystop-after:parser"]
   },
-  "best_practices_files": ["./best_practices_guides/DATA_LAKES_KAFKA_SNOWFLAKE_SPARK_BEST_PRACTICES.md"],
+  "best_practices_files": [
+    "./best_practices_guides/DATA_LAKES_KAFKA_SNOWFLAKE_SPARK_BEST_PRACTICES.md"
+  ],
   "chunk_size": 50,
   "agents": 20,
   "session": "claude_agents",
@@ -28,4 +30,4 @@
   "fast_start": false,
   "full_backup": false,
   "max_agents": 50
-} 
+}
